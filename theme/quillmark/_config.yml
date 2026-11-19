@@ -1,0 +1,8 @@
+# Quillmark theme options
+palette: mist
+masthead_style: compact
+masthead_identity_block:
+  show_avatar: true
+  show_social_links: true
+  show_affiliation: true
+footer_note: "Built with Quillmark."

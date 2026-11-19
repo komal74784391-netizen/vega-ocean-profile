@@ -1,0 +1,66 @@
+/* Quillmark theme - core layout */
+:root {
+  --qm-ink: #1f2933;
+  --qm-muted: #52606d;
+  --qm-paper: #fbf8f1;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #e4dccd;
+  background: var(--qm-paper);
+}
+
+.masthead__brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.masthead__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--qm-ink);
+}
+
+.masthead__nav a {
+  margin-left: 1rem;
+  color: var(--qm-muted);
+  text-decoration: none;
+}
+
+.page {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.palette-sand { --qm-accent: #c4794f; }
+
+.masthead__subtitle { font-weight: 400; color: var(--qm-muted); }
+
+h2 { line-height: 1.25; }
+
+@media (max-width: 640px) { .masthead { flex-direction: column; gap: 0.75rem; } }
+
+.section + .section { margin-top: 2rem; }
+
+ul.tight { margin: 0.25rem 0; }
+
+.citation { font-size: 0.9rem; }
+
+a:focus-visible { outline: 2px solid #c4794f; }
+
+body { font-size: 16px; }
+
+table { max-width: 100%; overflow-x: auto; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+.masthead { max-width: 72rem; margin: 0 auto; }
+
+.footnote { font-size: 0.8rem; }
+
+.masthead__nav a { text-underline-offset: 3px; }

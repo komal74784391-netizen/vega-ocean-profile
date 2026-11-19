@@ -1,0 +1,12 @@
+{
+  "identity": {
+    "name": "Marisol Vega",
+    "contact_email": "marisol.vega@kestrelbay.edu",
+    "primary_profile": "https://orcid.org/0000-0002-7719-3345"
+  },
+  "site": {
+    "title": "Marisol Vega - Academic Site",
+    "description": "Marisol Vega is a PhD candidate in Computational Oceanography at Kestrel Bay University.",
+    "base_url": "https://example.org"
+  }
+}
